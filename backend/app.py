@@ -33,7 +33,6 @@ async def upload_pill(pill_image: UploadFile = File(...)):
     Endpoint to upload the pill image
     """
     try:
-    
         file_path = os.path.join(UPLOAD_FOLDER, pill_image.filename)
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(pill_image.file, buffer)
@@ -53,7 +52,6 @@ async def verify_pill(reference_image: UploadFile = File(...), captured_image: U
     """
     try:
         print("Saving reference and captured images...")
-
         reference_path = os.path.join(UPLOAD_FOLDER, reference_image.filename)
         captured_path = os.path.join(UPLOAD_FOLDER, captured_image.filename)
 
@@ -75,8 +73,6 @@ async def verify_pill(reference_image: UploadFile = File(...), captured_image: U
         4. Note any distinguishing features, such as markings, textures, or logos.
         5. Determine if the pills in both images appear to be the same based on the above characteristics.
         Provide a detailed explanation of similarities and differences.
-
-        add +++ in response if the pills are the same and --- if they are different.
         """
 
         safety_settings = {
