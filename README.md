@@ -25,11 +25,6 @@ Adhere is an AI assistant application that leverages computer vision technology 
 - AI-powered intervention suggestions
 - User-friendly mobile application interface
 
-## Team
-
-- Godwin Chan
-- Samuel Donkor
-
 ## Project Status
 
 This project was developed during the AI + Global Health Hack event in September 2024. It is currently in prototype stage.
@@ -92,18 +87,4 @@ The backend should now be running on `http://localhost:8000`.
 
 The frontend should now be running on `http://localhost:3000`.
 
-## Contributing
 
-We welcome contributions to the Adhere project! Please read our contributing guidelines to get started.
-
-## License
-
-(License information would go here)
-
-## Acknowledgements
-
-- AI + Global Health Hack organizers
-- OKB Hope Foundation
-- All mentors and judges who provided valuable feedback
-
-For more information or to get involved, please contact [contact information].
