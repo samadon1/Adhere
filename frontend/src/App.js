@@ -202,6 +202,7 @@ const App = () => {
     </div>
   );
 
+
   const renderVerifyPage = () => (
     <div style={contentStyle}>
       <h2 style={headingStyle}>Verify Your Pill</h2>
